@@ -1,0 +1,128 @@
+#x='chan dru'
+#print('chan' not in x)
+#x='chan'
+#print(x.replace('ch','v')
+#x='chan dru'
+#print(x.center(5))
+'''def chandru(x='very'):
+    print(x + 'good')
+chandru()'''
+'''x=5
+def chan(x):
+    return x+10
+print(x)'''
+'''a=[1,2,3,4,5]
+for x in a:
+    print(x)
+    if x==3:
+        break'''
+'''i=1
+while i<6:
+    i+=1
+    if i==4:
+        break
+    print(i)'''
+'''fruits , good= ["apple", "banana", "cherry"],['bus','bike','train']
+def chan(name,y):
+    for x in (name,good):
+        print(x)
+chan(fruits,good)'''
+'''cars= { "brand": "Ford", "model": "Mustang", "year": 1964 }
+cars['year']=2020
+print(cars)
+cars.pop('year')
+print(cars)'''
+#a=['apple','banana','kiwi']
+#b=[]
+#for x in a:
+ #   if 'a' in x:
+  #      b.append(x)
+#print(b)
+'''a=['apple','banana','kiwi']
+b=[x for x in a if 'i' in x]
+print(b)'''
+'''f=open('chan.txt','r')
+print(f.read())'''
+'''import os
+if os.path.exists('chan.txt'):
+    os.remove('chan.txt')
+else:
+    print('file not present')'''
+'''f=open('chan.txt','w')
+f.write('chandru')'''
+#print(f)''''''
+#f=open('chandru.txt','w')
+'''import os
+os.remove('chan.txt')'''
+'''a=int(input('enter an number:'))
+if a%1==0:
+  print('it\'s an even')
+else:
+  print('it\'s an odd')'''
+
+'''a=int(input('enter'))
+if a>1:
+    for x in range(2,a):
+        if a%x==0:
+            print('not prime')
+            break
+    else:
+        print('prime')
+else:
+    print('not prime')'''
+
+'''def fibonacci(n):
+    a,b=0,1
+    print(a)
+    print(b)
+    for x in range(2,n):
+        c=a+b
+        a=b
+        b=c
+        print(c)
+fibonacci(5)'''
+'''def fun(variable):
+    letters = ['a', 'e', 'i', 'o', 'u']
+    if (variable in letters):
+        return True
+    else:
+        return False
+        sequence = ['g', 'e', 'e', 'j', 'k', 's', 'p', 'r']
+        filtered = filter(fun, sequence)
+        print('The filtered letters are:')
+        for s in filtered:
+             print(s)'''
+
+'''
+a = []
+while True:
+    b = input()
+    if b == 'z':
+        break
+    a.append(int(b))
+print(a)
+'''
+
+'''import random as r
+a = r.randint(1,10)
+b = int(input('enter a b/t 1-10:'))
+while b != a:
+    if b > a:
+        print('enter a no less ur"s:')
+    else:
+        print('enter a no higher than ur"s:')
+    b=int(input('enter a b/t 1-10:'))
+print('won')'''
+'''
+tu = (1,2,3)
+for i in tu:
+    print(i,end='')'''
+
+'''a = 'A,B,C,D'
+b = ''
+for x in a:
+    if x == ',':
+        pass
+    else:
+        b = b + x
+print(b)'''
